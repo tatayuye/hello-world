@@ -19,3 +19,27 @@
 2.插入在某位置：list.insert(位置,'内容')
 3.删除某个元素：list.remove('')
 4.清空列表：list.clear()
+5.排序：sorted(list, reverse=True/False, key=?)
+
+元组
+
+如果不需要对元素进行添加、删除、修改的时候，可以考虑使用元组，当然如果一个方法要返回多个值，使用元组也是不错的选择。
+元组在创建时间和占用的空间上面都优于列表。我们可以使用sys模块的getsizeof函数来检查存储同样的元素的元组和列表各自占用了多少内存空间，这个很容易做到。
+
+
+集合
+
+ 1.交集：&   set.intersection(set2)
+ 2.并集：|   set.union(set2)
+ 3.差集：-   set.difference(set2)
+ 4.对称差： ^ set.symmitric_difference(set2)
+ 5.子集：set2<=set  set2.issubset(set)
+ 6.超集：set>=set2  set.issuperset(set2)
+ 
+ 
+字典
+
+1.增加：dict.update(键=值)
+2.获取值：dict.get(键)
+3.删除最后一个值：dict.popitem()
+4.清除：dict.clear()
