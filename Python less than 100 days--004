@@ -1,0 +1,21 @@
+字符串是重点：
+
+1.判断长度：len(str)
+2.首字母大写: str.capitalize()
+3.改为大写: str.upper()
+4.查找某内容位置：str.find('查找内容')  #找不到时为-1
+5.查找某内容位置：str.index('查找内容')  #找不到时为异常
+6.以..为开头或结尾：str.startswith(''), str.endswith('')
+7.居中并填充，靠右并填充：str.center(长度, '填充内容')       str.rjust(长度, '填充内容')
+8.是否为数字：str.isdigit()
+9.是否为字母：str.isalpha()
+10.是否为数字或字母：str.isalnum()
+11.去除空格：str.strip()
+
+列表
+用法类似字符串
+
+1.增加在最后：list.append()
+2.插入在某位置：list.insert(位置,'内容')
+3.删除某个元素：list.remove('')
+4.清空列表：list.clear()
